@@ -96,7 +96,9 @@ td.sidebar {
   margin-bottom: -15px;
 }
 
-div.field, div.actions {margin-bottom :10px}
+div.field, div.actions 		{margin-bottom :10px;margin-top:10px;
+
+}
 
 /* Error messages */
 .field_with_errors 		{margin-top: 10px;  padding: 2px;
