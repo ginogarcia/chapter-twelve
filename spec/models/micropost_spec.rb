@@ -44,5 +44,3 @@ describe Micropost do
     end
     
 end
-
-

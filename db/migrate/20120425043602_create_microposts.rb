@@ -6,7 +6,6 @@ class CreateMicroposts < ActiveRecord::Migration
 
       t.timestamps
     end
-    add_index :micropost, :user_id
   end
 
   def self.down
