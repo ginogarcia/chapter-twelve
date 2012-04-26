@@ -33,7 +33,16 @@ describe Relationship do
         it "should have the right follower" do
             @relationship.followed.should == @followed
         end
-        
+    end
+    ###
+    describe "validations" do
+        it "should require a follower id" do
+            Relationship.new(@attr).should_not be_valid
+        end
+        ###
+        it "should require a followed id" do
+            @follower.relationships.build.should_not be_valid
+        end
     end
 end
 
