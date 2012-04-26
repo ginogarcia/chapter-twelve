@@ -12,7 +12,7 @@ gem 'will_paginate', 	'3.0.pre'
 group :development do
    gem 'rspec-rails', 	'2.8.0'
    gem 'annotate',      '2.4.0'
-   #gem 'faker', 	'0.3.1'
+   gem 'faker', 	'0.3.1'
  end
  
  group :test do
