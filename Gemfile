@@ -20,4 +20,5 @@ group :development do
    gem 'webrat',        '0.7.1'
    gem 'annotate',      '2.4.0'
    gem 'factory_girl_rails', '1.0'
- end
+   
+end
