@@ -1,5 +1,7 @@
 ChapterTwelve::Application.routes.draw do
+
    resources :users
+
   resources :sessions,   :only => [:new, :create, :destroy]
   resources :microposts, :only => [:create, :destroy]
 
@@ -15,5 +17,5 @@ ChapterTwelve::Application.routes.draw do
   match '/signout',      :to => 'sessions#destroy'
   
   match '/breed',       :to => 'demos#breed'
-  
+
 end
