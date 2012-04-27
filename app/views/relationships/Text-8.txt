@@ -1,0 +1,4 @@
+SELECT * FROM microposts
+WHERE user_id IN (<list of ids>) OR user_id = <user id>
+
+Micropost.where("user_id IN (#{followed_ids})) OR user)
